@@ -1,0 +1,40 @@
+// This is dummy data you can use for the Sighting model
+
+{
+    "sightings": [{
+        "user": "anObjectID",
+        "bird": ["Embedded"],
+        "confirmed": true,
+        "numberSeen": 2,
+    },
+    {
+        "user": "anObjectID",
+        "bird": ["Embedded"],
+        "confirmed": false,
+        "numberSeen": 5
+    },
+    {
+        "user": "anObjectID",
+        "bird": ["Embedded"],
+        "confirmed": true,
+        "numberSeen": 2
+    },
+    {
+        "user": "anObjectID",
+        "bird": ["Embedded"],
+        "confirmed": true,
+        "numberSeen": 7
+    },
+    {
+        "user": "anObjectID",
+        "bird": ["Embedded"],
+        "confirmed": false,
+        "numberSeen": 1
+    },
+    {
+        "user": "anObjectID",
+        "bird": ["Embedded"],
+        "confirmed": true,
+        "numberSeen": 2
+    }]
+}
