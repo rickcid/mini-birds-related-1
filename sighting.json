@@ -3,38 +3,50 @@
 {
     "sightings": [{
         "user": "anObjectID",
-        "bird": ["Embedded"],
+        "bird": [{
+          "name": "red breasted merganser",
+          "order": "Anseriformes",
+          "status": "least concern"
+        },{
+          "name": "cedar waxwing",
+          "order": "Passeriformes",
+          "status": "least concern"
+        }],
         "confirmed": true,
         "numberSeen": 2,
     },
     {
         "user": "anObjectID",
-        "bird": ["Embedded"],
+        "bird": [{
+          "name": "osprey",
+          "order": "Accipitriformes",
+          "status": "least concern"
+        }],
         "confirmed": false,
         "numberSeen": 5
     },
     {
         "user": "anObjectID",
-        "bird": ["Embedded"],
+        "bird": [{
+          "name": "snowy plover",
+          "order": "Charadriformes",
+          "status": "least concern"
+        }],
         "confirmed": true,
         "numberSeen": 2
     },
     {
         "user": "anObjectID",
-        "bird": ["Embedded"],
+        "bird": [{
+          "name": "passenger pigeon",
+          "order": "Columbiformes",
+          "status": "extinct"
+        },{
+          "name": "greater sage grouse",
+          "order": "GALLIFORMES",
+          "status": "near threatened"
+        }],
         "confirmed": true,
         "numberSeen": 7
-    },
-    {
-        "user": "anObjectID",
-        "bird": ["Embedded"],
-        "confirmed": false,
-        "numberSeen": 1
-    },
-    {
-        "user": "anObjectID",
-        "bird": ["Embedded"],
-        "confirmed": true,
-        "numberSeen": 2
     }]
 }

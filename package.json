@@ -14,5 +14,14 @@
     "cors": "^2.6.0",
     "express": "^4.12.3",
     "mongoose": "^4.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickcid/mini-birds-related-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rickcid/mini-birds-related-1/issues"
+  },
+  "homepage": "https://github.com/rickcid/mini-birds-related-1"
 }

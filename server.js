@@ -6,6 +6,7 @@ var mongoose = require('mongoose');
 
 // Controllers
 var SightingCtrl = require('./controllers/SightingCtrl');
+var UserCtrl = require('./controllers/UserCtrl')
 
 // Express
 var app = express();
@@ -17,8 +18,16 @@ app.use(cors());
 // Endpoints
 app.post('/sighting', SightingCtrl.create);
 app.get('/sighting', SightingCtrl.read);
+app.get('/sighting/:id'), SightingCtrl.byUser);
 app.put('/sighting/:id', SightingCtrl.update);
 app.delete('/sighting/:id', SightingCtrl.delete);
+
+
+app.post('/user', UserCtrl.create);
+app.get('/user', UserCtrl.read);
+app.put('/user/:id', UserCtrl.update);
+app.delete('/user/:id', UserCtrl.delete);
+
 
 // Connections
 var port = 9001;
